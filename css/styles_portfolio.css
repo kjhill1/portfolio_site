@@ -1,0 +1,392 @@
+/* Styles for my website it261 */
+
+* {
+    padding: 0;
+    /* margin:0; */
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(75, 75, 75);
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 20px auto;
+  background-color: rgb(247, 192, 89);
+  overflow: hidden;
+
+}
+
+
+#header {
+    /* background-color: rgb(65, 65, 65); */
+    overflow:hidden;
+    color: rgb(255, 248, 239);
+}
+
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1100px;
+    margin:20px auto;
+  }
+
+  #header ul {
+    display: flex;
+  }
+  
+  #header ul li {
+    list-style: none;
+    padding: 15px 15px;
+  }
+  #header ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+    color: rgb(255, 248, 239);
+    font-weight: 400;
+  }
+  #header ul li a:hover {
+    border-bottom: 3px solid red;
+  }
+  
+  #header ul li img {
+    margin-right: 30px;
+  }
+  
+  .toggle {
+    display: none;
+  }
+
+#logo {
+    float:left;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+nav {
+    float: right;
+    height: 50px;
+}
+
+nav ul {
+    float:right;
+}
+
+nav li {
+    float:left;
+    list-style-type: none;
+    margin-left:40px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* #hero {
+    height: 300px;
+    background-color: rgb(233, 210, 255);
+    margin-bottom: 20px;
+} */
+
+/* based on a 940 grid (580/940=61.50%) */
+main {
+    width:61.7%;
+    /* height:400px;  */
+    padding: 10px;
+    float: right;
+    /* margin: auto; */
+    color: rgb(255, 248, 239);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+/* (340px/940px=36.17%) */
+aside {
+    width: 36.17%;
+    height: 600px;
+    float: left;
+    color: rgb(75, 75, 75);
+    background-color: rgb(255, 248, 239);
+    list-style-type: none;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+
+section  {
+    width:250px;
+    padding: 10px;
+    float: left;
+    background-color: pink;
+} 
+
+/* PROJECT CSS*/
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+/* FOR IMGS NOT INCLUDED yet */
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+/* FOOTER CSS */
+footer{
+    height: 50px;
+    line-height: 50px;
+    color: rgb(75, 75, 75);
+    background-color: rgb(255, 248, 239);
+    clear: both;
+}
+
+ul footer {
+    float: right;
+}
+
+footer li {
+    float: right;
+    height: 50px;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+/* start FORM CSS*/
+
+#contact {
+    width: 100%;
+    padding: 10px;
+    color: rgb(255, 248, 239);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact_page {
+    text-align: center;
+    color: rgb(242, 242, 242);
+}
+
+label {
+    display:block;
+    margin-bottom: 5px;
+}
+
+#form {
+    width: 90%;
+    margin:0 auto;
+}
+
+#form ul {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.error {
+    display: block;
+    color: rgb(195, 84, 84);
+    font-size: .75em;
+    margin: 5px 0;
+}
+
+.box {
+    width:400px;
+    margin:10px auto;
+    border: 3px solid rgb(136, 157, 136);
+    padding:8px;
+}
+
+label {
+display:block;
+margin-bottom: 5px;
+}
+
+fieldset {
+padding:8px;
+border: solid 3px rgb(160, 160, 151);
+text-align: center;}
+
+
+input[type=radio] {
+ margin-right: 5px;
+}
+
+input[type=submit] {
+margin-bottom: 5px;
+}
+
+input[type=checkbox] {
+margin-bottom: 5px;
+}
+
+select {
+ /* display:block; */
+ margin-bottom: 5px;
+ text-align: center;
+}
+
+
+/* end contact CSS */
+
+
+
+/* project page table CSS*/
+
+
+table td {
+  border-bottom: 1px solid #ddd;
+  display: block;
+  text-align: right;
+}
+
+ table td::before {
+  content: attr(data-label);
+  float: left;
+  font-weight: bold;
+}
+
+
+
+/* *********************RESPONSIVE *************************** */
+   
+@media (max-width: 650px) {
+
+
+    #contact {
+        /* width: 60%; */
+        background-color: pink;
+    }
+
+    #wrapper {
+        width: 60%;
+        background-color: rgb(255, 255, 111);
+    }
+
+    #form {
+      width: 60%;
+    }
+
+
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+    /* RESPONSIVE NAV******** */
+
+    #header ul {
+      position: absolute;
+      top: -100%;
+      left: 0;
+      width: 100%;
+      height: calc(100vh- 80px);
+      padding: 50px 100px;
+      text-align: center;
+      overflow: auto;
+      background-color: #111;
+      flex-direction: column;
+      opacity: 0;
+    }
+  
+    .logo {
+      color: #fff;
+    }
+  
+    #header {
+      background-color: #111;
+    }
+  
+    #header.active1 ul {
+      opacity: 1;
+      top: 75px;
+    }
+  
+    #header ul li a {
+      margin: 5px 0;
+      font-size: 24px;
+      color: rgb(255, 30, 30);
+    }
+  
+    .toggle {
+      display: block;
+      position: relative;
+      width: 40px;
+      height: 40px;
+      background-image: url(https://img.icons8.com/material-outlined/48/ffffff/menu--v1.png);
+      cursor: pointer;
+    }
+    #header.active1 .toggle {
+      background-image: url(https://img.icons8.com/material-rounded/48/ffffff/multiply--v1.png);
+      background-repeat: no-repeat;
+    }
+
+
+    /* TABLE CSS RESPONSIVE */
+
+
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      text-align: right;
+    }
+  
+    table td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+    }
+
+  }
+
+
+  /* MOBILE RESPONSIVE */
+  @media (max-width: 400px) {
+     #contact {
+      width: 30%;
+      background-color: rgb(197, 251, 178);
+  }
+
+  #wrapper {
+      width: 30%;
+      background-color: rgb(111, 209, 255);
+  }
+
+  #form {
+    width: 30%;
+  }
+
+  fieldset {
+    width: 30%;
+  }
+
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+
+  
+  
+  
+ 
