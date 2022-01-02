@@ -12,7 +12,7 @@ include('includes/header.php');
                 <!--Page Heading-->
                 <div class="page-heading">
                     <span class="icon"><i class="lnr lnr-user"></i></span>
-                    <h2>Greetings.</h2>
+                    <h2>You Made it.</h2>
                 </div>
 
                 <!-- About Info Row Start-->
@@ -21,19 +21,22 @@ include('includes/header.php');
                     <div class="col-lg-8">
                         <!--Personal Intro-->
                         <h3 class="mb-20">UI/UX Designer & Developer</h3>
-                        <p>Allow me to introduce myself: I am Kelly, a new designer with a love of coding as well! 
+                            <p>Allow me to introduce myself: I am Kelly, a new designer with a love of coding as well! 
                             
                         <h3 class="mb-20">Visual Experience.</h3>
-                        <p>Having a formal education in Art and Design, my goal is to combine the storytelling through visual representation and translate that in digital form. My major artist influences include: Artemisia Gentileschi, Banksy, Fred Tomaselli, Davin Lavikka, & Yayoi Kasuma</p>
+                            <p>Having a formal education in Art and Design, my goal is to combine the storytelling through visual representation and translate that in digital form.</p>
+                            
+                        <!-- My major artist influences include: Artemisia Gentileschi, Banksy, Fred Tomaselli, Davin Lavikka, & Yayoi Kasuma -->
 
-                        <h3>Client Concepts.</h3>
-                        <p>As a former Event & Sales Professional, I honed the skill of the identifying individuals concept and manifesting their visions.  This profession is personal and emotional. People have a vision, they want to experience their vision, as well as share it with others. My job is to make that happen.</p>
+                        <h3>Client Concepts.</h3><br>
+                        <!-- <p>I am skills at identifying client concepts and manifesting their visions.  This profession is personal and emotional. </p> -->
+                            <p>People have a vision, they want to experience their vision, as well as share it with others. My job is to make that happen.</p>
 
-                        <h3>Translation.</h3>
-                        <p>I love to design, but also love to code. Watching vision morphy through the design process, then being building that into a tangible product, is a true expression of art. My love of HTML, CSS, PHP and other apps, has been an amazing tool to create these deliverables.  </p>
+                        <h3>Concept Translation.</h3><br>
+                            <p>I love to design. Watching vision morph through the design process, and be developed into building that into a tangible product, is a true expression of art. </p>
 
-                       <h3>Collaborative Learning</h3>
-                       <p>Doing a COVID career change was an amazing opportunity, but am looking forward to working in a collaborative learning environment with other creatives and builders.  </p>
+                       <h3>Collaborative Learning</h3><br>
+                            <p>Doing a COVID career change was an amazing opportunity, but am looking forward to working in a collaborative learning environment with other creatives and builders.  </p>
 
                     <!--Signature Image-->
                    <!-- img/signatures.svg -->
@@ -49,7 +52,7 @@ include('includes/header.php');
                                 <li><span class="title">Name</span><span class="value">Kelly J. Hill</span></li>
                             
                                 <li><span class="title">Residence</span><span class="value">Seattle, WA</span></li>
-                                <li><span class="title">Email</span><span class="value">kelly@kjhilldesigns.com</span></li>
+                                <li><span class="title">Email</span><span class="value"><a id="hp_email" href="mailto:kjhilldesigns7@gmail.com">kjhilldesigns7@gmail.com</a></span></li>
                                 <li><span class="title">Phone</span><span class="value">(+1) 206-578-1565</span></li>
                             </ul>
                             <div class="resume-button mt-30">
@@ -60,51 +63,6 @@ include('includes/header.php');
                 </div>
                 <!-- About Info Row End-->
 
-                <!--Services Row Start-->
-                <div class="row services mb-30">
-                    <div class="col-md-12">
-                        <div class="subheading">
-                            <h3>My Tool Box</h3>
-                        </div>
-                    </div>
-
-                    <!--Service Item-->
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="service-item">
-                            <div class="icon"><i class="lnr lnr-laptop"></i></div>
-                            <h4>UX/UI Web Design & Development</h4>
-                            <!-- <p>Amet aspernatur delectus maxime ducimus similique Ratione asperiores corporis provident aut libero.</p> -->
-                        </div>
-                    </div>
-
-                    <!--Service Item-->
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="service-item">
-                            <div class="icon"><i class="lnr lnr-laptop-phone"></i></div>
-                            <h4>Responsive Design</h4>
-                            <!-- <p>Amet aspernatur delectus maxime ducimus similique Ratione asperiores corporis provident aut libero.</p> -->
-                        </div>
-                    </div>
-
-                         <!--Service Item-->
-                         <div class="col-lg-3 col-sm-6">
-                            <div class="service-item">
-                                <div class="icon"><i class="lnr lnr-eye"></i></div>
-                                <h4>Project Management</h4>
-                                <!-- <p>Amet aspernatur delectus maxime ducimus similique Ratione asperiores corporis provident aut libero.</p> -->
-                            </div>
-                        </div>
-
-                    <!--Service Item-->
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="service-item">
-                            <div class="icon"><i class="lnr lnr-camera"></i></div>
-                            <h4>Branding & Logo Design</h4>
-                            <!-- <p>Amet aspernatur delectus maxime ducimus similique Ratione asperiores corporis provident aut libero.</p> -->
-                        </div>
-                    </div>
-                </div>
-                <!--Services Row End-->
 
                 </div>
         </section>

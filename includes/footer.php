@@ -1,5 +1,4 @@
-
-   <footer class="nav-footer">
+<footer class="nav-footer">
                             <!--Social Links-->
                         <ul>
                             <li><a href="https://github.com/kjhill1"><i class="fab fa-github-square"></i></a></li>
@@ -11,8 +10,8 @@
                                 <p>2021 &copy; Cosmos-Themes.<br>All Right Reserved.</p>
                             </div>
                         </footer>
-<!-- </div> -->
-<!-- closees page ID  -->
+</div>
+<!-- closes page ID  -->
 
 
         <!--Ajax Portfolio Container Start-->
@@ -35,32 +34,6 @@
         <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
         <!--Site Main JS-->
         <script src="js/main.js"></script>
-        <script>
-            var slideIndex = [1,1];
-            var slideId = ["mySlides1", "mySlides2"]
-            showSlides(1, 0);
-            showSlides(1, 1);
-
-            function plusSlides(n, no) {
-            showSlides(slideIndex[no] += n, no);
-            }
-
-            function showSlides(n, no) {
-            var i;
-            var x = document.getElementsByClassName(slideId[no]);
-            if (n > x.length) {slideIndex[no] = 1}    
-            if (n < 1) {slideIndex[no] = x.length}
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
-            }
-            x[slideIndex[no]-1].style.display = "block";  
-            }
-            </script>
-
-            <script>
-
-    $('table').DataTable();
-
-                </script>
+        
     </body>
 </html>

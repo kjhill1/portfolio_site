@@ -20,14 +20,8 @@
         <link rel="stylesheet" href="css/style.css">
         <!--Color Css-->
         <link rel="stylesheet" href="css/blue-color.css">
-
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
         <!--Modernizr Js-->
         <script src="js/modernizr.js"></script>
-
-            <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
-
         <!--Favicons-->
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
@@ -38,7 +32,7 @@
           <div class="preloader">
             <div class="loader">
                 <!--Your Name-->
-                <h4>Welcome</h4>
+                <h4>Now Landing</h4>
                 <span></span>
                 <span></span>
                 <span></span>
@@ -58,7 +52,7 @@
                     <!--Mobile Header-->
                    <div class="header-mobile">
                             <a class="header-toggle"><i class="fas fa-bars"></i></a>
-                            <h2>Kelly J. Hill</h2>
+                            <h2 style="color:#53c8d5;">Kelly J. Hill</h2>
                         </div>
 
                     <!--Main Header-->
@@ -74,10 +68,11 @@
                             
                              <h2 id="nav-name">Kelly J. Hill</h2>
                             <ul>
-                                <li><a href="index.php" class="pt-link active"><span class="nav-menu-icon"><i class="lnr lnr-home"></i></span>Home</a> </li>
+                                <li><a href="index.php" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-home"></i></span>Home</a> </li>
                                 <li><a href="portfolio.php" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-briefcase"></i></span>Portfolio</a></li>
-                                <li><a href="https://kellywithwordpress.design" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-book"></i></span>Blog</a></li>
                                 <li><a href="contact.php" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-envelope"></i></span>Contact</a></li>
+                                <li><a href="https://kellywithwordpress.design" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-book"></i></span>Visit My Blog</a></li>
+                                
                             </ul>
                         </nav>
                         <div class="resume-button mt-30-home">
