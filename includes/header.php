@@ -68,15 +68,15 @@
                             
                              <h2 id="nav-name">Kelly J. Hill</h2>
                             <ul>
-                                <li><a href="index.php" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-home"></i></span>Home</a> </li>
-                                <li><a href="portfolio.php" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-briefcase"></i></span>Portfolio</a></li>
+                                <li><a href="portfolio.php" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-home"></i></span>Home</a> </li>
+                                <li><a href="index.php" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-briefcase"></i></span>About Me</a></li>
                                 <li><a href="contact.php" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-envelope"></i></span>Contact</a></li>
                                 <li><a href="https://kellywithwordpress.design" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-book"></i></span>Visit My Blog</a></li>
                                 
                             </ul>
                         </nav>
                         <div class="resume-button mt-30-home">
-                            <a class="btn-main" href="resume_hill.pdf">Download Resume</a>
+                            <a class="btn-main" href="resume_kellyjhill_21_.pdf">Download Resume</a>
                         </div>
 
 

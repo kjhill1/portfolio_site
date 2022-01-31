@@ -21,44 +21,44 @@
                                 </div>
 
                                 <!--Form Start-->
-                                <!-- <form id="contact-form" method="post" action="mail.php">
-                                    <div class="row"> -->
+                                <form id="contact-form" method="post" action="mail.php">
+                                    <div class="row">
 
 
                                         <!--Name Field-->
-                                        <!-- <div class="col-md-6 mb-50">
+                                        <div class="col-md-6 mb-50">
                                             <span class="input">
                                                 <input class="input__field cf-validate" type="text" id="cf-name" name="name" />
-                                                <label class="input__label" for="cf-name">Name</label>
-                                            </span>
-                                        </div> -->
-
-                                        <!--Email Field-->
-                                        <!-- <div class="col-md-6 mb-50">
-                                            <span class="input">
-                                                <input class="input__field cf-validate" type="text" id="cf-email" name="email" />
-                                                <label class="input__label" for="cf-email">Email</label>
-                                            </span>
-                                        </div> -->
-
-                                        <!--Message Box-->
-                                        <!-- <div class="col-md-12 mb-30">
-                                            <span class="input">
-                                                <textarea  class="input__field cf-validate" id="cf-message" name="message" rows="5" ></textarea>
-                                                <label class="input__label" for="cf-message">How can we help you?</label>
+                                                <label class="input__label" for="name">Name</label>
                                             </span>
                                         </div>
 
-                                        <div class="alert-container col-md-12"></div> -->
+                                        <!--Email Field-->
+                                        <div class="col-md-6 mb-50">
+                                            <span class="input">
+                                                <input class="input__field cf-validate" type="text" id="cf-email" name="email" />
+                                                <label class="input__label" for="email">Email</label>
+                                            </span>
+                                        </div>
+
+                                        <!--Message Box-->
+                                        <div class="col-md-12 mb-30">
+                                            <span class="input">
+                                                <textarea  class="input__field cf-validate" id="cf-message" name="message" rows="5" ></textarea>
+                                                <label class="input__label" for="message">How can we help you?</label>
+                                            </span>
+                                        </div>
+
+                                        <div class="alert-container col-md-12"></div>
 
                                         <!--Submit Button-->
-                                        <!-- <div class="col-md-12 text-center">
-                                            <button id="cf-submit" class="btn-main">Send Message</button>
+                                        <div class="col-md-12 text-center">
+                                            <button id="cf-submit" class="btn-contact">Send Message</button>
                                         </div>
 
 
                                     </div>
-                                </form> -->
+                                </form>
                                 <!--Form End-->
 
                             </div>
@@ -103,4 +103,3 @@
 
 
       
-
